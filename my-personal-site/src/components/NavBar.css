@@ -1,0 +1,82 @@
+nav ul {
+    list-style-type: none; /* Removes the default list styling */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Ensures the list is one line */
+    background-color: #333; /* Background color for the navbar */
+}
+
+nav li {
+    float: left; /* This will line up the links horizontally */
+}
+
+nav li a {
+    display: block; /* Makes the whole area clickable */
+    color: white; /* Text color */
+    text-align: center; /* Centers text inside the link */
+    padding: 14px 16px; /* Add space around the text */
+    text-decoration: none; /* Removes underline from links */
+}
+
+/* Change the color of links on hover */
+nav li a:hover {
+    background-color: #111;
+}
+
+/* Style for the button to make it consistent with links */
+nav li button {
+    background: none; /* No background */
+    border: none; /* No border */
+    color: white; /* Text color */
+    padding: 14px 16px; /* Padding to match the links */
+    font: inherit; /* Font consistent with the rest of the navbar */
+    cursor: pointer; /* Cursor indicates it’s clickable */
+    display: block; /* Makes the whole area clickable */
+    text-align: center; /* Center the text inside the button */
+}
+
+/* Hover effect for buttons */
+nav li button:hover {
+    background-color: #111;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.nav-links-left a, .nav-links-right button {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.nav-links-left a:hover, .nav-links-right button:hover {
+    background-color: #555;
+}
+
+.nav-links-left, .nav-links-right {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-links-left, .nav-links-right {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+}

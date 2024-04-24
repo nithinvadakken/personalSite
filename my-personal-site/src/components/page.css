@@ -1,0 +1,5 @@
+.centered-header {
+    text-align: center; /* Centers the text horizontally */
+    margin-top: 20px; /* Adds some space at the top */
+    margin-bottom: 20px; /* Adds some space at the bottom */
+}

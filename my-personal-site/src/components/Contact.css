@@ -1,0 +1,75 @@
+.contact-container {
+    padding: 40px;
+    background: #f9f9f9; /* Light grey background */
+}
+
+.contact-form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block; /* Center button in form */
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff; /* White icon color */
+    background-color: #333; /* Dark background for the icon */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+}
+
+.social-icon:hover {
+    background-color: #555; /* Lighten the icon background on hover */
+}
+
+.social-icon i {
+    font-size: 20px; /* Larger icon size */
+}
